@@ -1,0 +1,262 @@
+User
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color:#1d2630;
+    }
+    .card{
+        background: white;
+        width: 340px;
+        height: 380px;
+        border-radius: 10px;
+        
+    }
+    .card .image > img{
+        max-width: 100%;
+        border-radius: 10px;
+    }
+
+    .card .info{
+        padding: 0px 30px 0px 30px;
+    }
+
+    .card .info h3{
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 5px;
+    }
+
+    .card .info p{
+        
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .card .price{
+        text-align: right;
+        color: red;
+    }
+    .card .btn{
+        display: flex;
+        justify-content: space-around;
+    }
+    .card .btn button{
+        padding: 12px 32px;
+        border:  none;
+        border-radius: 10px;
+        background: #ffa600;
+        color: white;
+        font-size: 15px;
+        font-weight: 700;
+        cursor: pointer;
+    }
+
+    .card .btn .btn2{
+        background: #1d2630;
+        padding: 12px 15px;
+    }
+    .id{
+        display: flex;
+        justify-content: space-between;
+    }
+    .id .red{
+        color: red;
+    }
+    .box1 {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(345px, 1fr));
+        grid-template-rows: repeat(8, 450px);
+        gap: 20px;
+        margin-top: 0px;
+        margin-left: 25px;
+      }
+    
+      
+@media (max-width: 800px) {
+    .box1 {
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .box1 {
+      grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+      grid-template-rows: repeat(3, 400px);
+    }
+  }
+</style>
+<body>
+    
+<div class="box1">
+    <div class="card">
+        <div class="image">
+            <img width="500" height="195" src="https://i.ibb.co/f2wDm2b/42968-pad-thai-DDMFS-4x3-f46b490ef89b4694b8bf4c5ac54a486b.jpg" alt="">
+        </div>
+        <div class="info">
+            <h3>Pad Thai</h3>
+            <div class="id">
+                <p>Hot & Fresh</p>
+                <p class="red">$399</p>
+            </div>
+        </div>
+        <div class="btn">
+            <button class="btn1">Buy </button>
+            <button class="btn2">Add to Cart</button>
+        </div>
+    </div>
+    <div class="card">
+        <div class="image">
+            <img width="500" height="195" src="https://i.ibb.co/cvf9Fm3/bmyx49cem3y49tmnpw3e.jpg" alt="">
+        </div>
+        <div class="info">
+            <h3>paneer Pizza</h3>
+            <div class="id">
+                <p>Hot & Fresh</p>
+                <p class="red">$345</p>
+            </div>
+        </div>
+        <div class="btn">
+            <button class="btn1">Buy </button>
+            <button class="btn2">Add to Cart</button>
+        </div>
+    </div>
+    <div class="card">
+        <div class="image">
+            <img width="500" height="195" src="https://i.ibb.co/r7xKxw8/Beef-Burrito-Recipe-1200x900.webp" alt="">
+        </div>
+        <div class="info">
+            <h3>Beef Burrito</h3>
+            <div class="id">
+                <p>Hot & Fresh</p>
+                <p class="red">$605</p>
+            </div>
+        </div>
+        <div class="btn">
+            <button class="btn1">Buy </button>
+            <button class="btn2">Add to Cart</button>
+        </div>
+    </div>
+    <div class="card">
+        <div class="image">
+            <img width="500" height="195" src="https://i.ibb.co/7XL8xJm/friedveggies-7.jpg" alt="">
+        </div>
+        <div class="info">
+            <h3>Vegetable Tempura</h3>
+            <div class="id">
+                <p>Hot & Fresh</p>
+                <p class="red">$185</p>
+            </div>
+        </div>
+        <div class="btn">
+            <button class="btn1">Buy </button>
+            <button class="btn2">Add to Cart</button>
+        </div>
+    </div>
+    <div class="card">
+        <div class="image">
+            <img width="500" height="195" src="https://i.ibb.co/HBxgTpH/IMG-5743-scaled.jpg" alt="">
+        </div>
+        <div class="info">
+            <h3>Hawaiian Poke Bowl</h3>
+            <div class="id">
+                <p>Hot & Fresh</p>
+                <p class="red">$445</p>
+            </div>
+        </div>
+        <div class="btn">
+            <button class="btn1">Buy </button>
+            <button class="btn2">Add to Cart</button>
+        </div>
+    </div>
+    <div class="card">
+        <div class="image">
+            <img width="500" height="195" src="https://i.ibb.co/ZmkZcDV/Alfredo-Fettuccine-680px-plated.webp" alt="">
+        </div>
+        <div class="info">
+            <h3>Fettuccine Alfredo</h3>
+            <div class="id">
+                <p>Hot & Fresh</p>
+                <p class="red">$165</p>
+            </div>
+        </div>
+        <div class="btn">
+            <button class="btn1">Buy </button>
+            <button class="btn2">Add to Cart</button>
+        </div>
+    </div>
+    <div class="card">
+        <div class="image">
+            <img width="500" height="195" src="https://i.ibb.co/BTQyPq3/222416-maragrita-cocktail-ddmfs-3-X4-0319-1-35ebaafc51d7410eae4a7991b578dd4c.jpg" alt="">
+        </div>
+        <div class="info">
+            <h3>Margarita Cocktail</h3>
+            <div class="id">
+                <p>Hot & Fresh</p>
+                <p class="red">$95</p>
+            </div>
+        </div>
+        <div class="btn">
+            <button class="btn1">Buy </button>
+            <button class="btn2">Add to Cart</button>
+        </div>
+    </div>
+    <div class="card">
+        <div class="image">
+            <img width="500" height="195" src="https://i.ibb.co/MSynTX2/Strawberry-cheesecake-recipe-6-of-8.jpg" alt="">
+        </div>
+        <div class="info">
+            <h3>Chocolate Lava Cake</h3>
+            <div class="id">
+                <p>Hot & Fresh</p>
+                <p class="red">$5</p>
+            </div>
+        </div>
+        <div class="btn">
+            <button class="btn1">Buy </button>
+            <button class="btn2">Add to Cart</button>
+        </div>
+    </div>
+    <div class="card">
+        <div class="image">
+            <img width="500" height="195" src="https://i.ibb.co/NmktgSv/21412-tiramisu-ii-2x1-123-ec8870161e2a4547ba282da742b0d9ed.jpg" alt="">
+        </div>
+        <div class="info">
+            <h3>Tiramisu</h3>
+            <div class="id">
+                <p>Hot & Fresh</p>
+                <p class="red">$85</p>
+            </div>
+        </div>
+        <div class="btn">
+            <button class="btn1">Buy </button>
+            <button class="btn2">Add to Cart</button>
+        </div>
+    </div>
+    <div class="card">
+        <div class="image">
+            <img width="500" height="195" src="https://i.ibb.co/qdkf4cP/Chicken-Tikka-Masala-0-SQ.webp" alt="">
+        </div>
+        <div class="info">
+            <h3>Non-v Tikka Masala</h3>
+            <div class="id">
+                <p>Hot & Fresh</p>
+                <p class="red">$756</p>
+            </div>
+        </div>
+        <div class="btn">
+            <button class="btn1">Buy </button>
+            <button class="btn2">Add to Cart</button>
+        </div>
+    </div>
+    
+
+</div>
+
+</body>
+</html>
