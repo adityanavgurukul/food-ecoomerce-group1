@@ -13,32 +13,32 @@ const foodItems = [
     { name: "Cheese Burger", image: "https://i.ibb.co/VqCZcNd/uwuevkr6jbt6btijg91i.jpg", price: "Price not available"},
     { name: "Chesse Burger", image: "https://i.ibb.co/fv7VwWZ/aaqxryou8bhnxlujytji.jpg", price: "Price not available" },
     { name: "Asian Salad", image: "https://i.ibb.co/vxh0DWH/ogyppr5p7dx3kw3fuyi2.jpg", price: "Price not available" },
-    { name: "Chicken Alfredo Pizza", image: "https://i.ibb.co/Cbtk70M/chicken-alfredo-pizza.jpg", price: "$12.99" },
-    { name: "BBQ Chicken Pizza", image: "https://i.ibb.co/R7DCvvy/bbq-chicken-pizza.jpg", price: "$14.50" },
-    { name: "Mushroom Swiss Burger", image: "https://i.ibb.co/7Q4Xf9n/mushroom-swiss-burger.jpg", price: "$9.99" },
-    { name: "Veggie Burger", image: "https://i.ibb.co/2yKsKQg/veggie-burger.jpg", price: "$8.49" },
-    { name: "Caesar Salad", image: "https://i.ibb.co/Zd6Ns1z/caesar-salad.jpg", price: "$7.99" },
-    { name: "Chicken Caesar Salad", image: "https://i.ibb.co/S6y1CpF/chicken-caesar-salad.jpg", price: "$10.99" },
-    { name: "Shrimp Scampi", image: "https://i.ibb.co/7tPJ0y8/shrimp-scampi.jpg", price: "$16.99" },
-    { name: "Pulled Pork Sandwich", image: "https://i.ibb.co/BCMDfGt/pulled-pork-sandwich.jpg", price: "$11.99" },
-    { name: "Fish Tacos", image: "https://i.ibb.co/8PMnWmF/fish-tacos.jpg", price: "$9.99" },
-    { name: "Steak Fajitas", image: "https://i.ibb.co/FgbKHxF/steak-fajitas.jpg", price: "$15.99" },
-    { name: "Buffalo Wings", image: "https://i.ibb.co/ZMwH7XZ/buffalo-wings.jpg", price: "$9.99" },
-    { name: "Cheese Fries", image: "https://i.ibb.co/NLZn7hD/cheese-fries.jpg", price: "$5.99" },
-    { name: "Chocolate Brownie Sundae", image: "https://i.ibb.co/nrZBntv/chocolate-brownie-sundae.jpg", price: "$6.99" },
-    { name: "Sushi Platter", image: "https://i.ibb.co/7gYjDgC/sushi-platter.jpg", price: "$24.99" },
-    { name: "Lobster Roll", image: "https://i.ibb.co/7RCyt3L/lobster-roll.jpg", price: "$18.50" },
-    { name: "Philly Cheesesteak", image: "https://i.ibb.co/9t0Xt5t/philly-cheesesteak.jpg", price: "$11.99" },
-    { name: "Chicken Tikka Masala", image: "https://i.ibb.co/0jKYtnC/chicken-tikka-masala.jpg", price: "$13.99" },
-    { name: "Pad Thai", image: "https://i.ibb.co/R7d1vmG/pad-thai.jpg", price: "$10.99" },
-    { name: "Beef Burrito", image: "https://i.ibb.co/25sbpx4/beef-burrito.jpg", price: "$9.99" },
-    { name: "Vegetable Tempura", image: "https://i.ibb.co/rdGsYvX/vegetable-tempura.jpg", price: "$8.99" },
-    { name: "Hawaiian Poke Bowl", image: "https://i.ibb.co/zH5j24X/hawaiian-poke-bowl.jpg", price: "$14.99" },
-    { name: "Fettuccine Alfredo", image: "https://i.ibb.co/Ryy2zYW/fettuccine-alfredo.jpg", price: "$12.99" },
-    { name: "Margarita Cocktail", image: "https://i.ibb.co/YcQr09w/margarita-cocktail.jpg", price: "$8.99" },
-    { name: "Chocolate Lava Cake", image: "https://i.ibb.co/kBxGcrk/chocolate-lava-cake.jpg", price: "$7.99" },
-    { name: "Strawberry Cheesecake", image: "https://i.ibb.co/SyDqM8x/strawberry-cheesecake.jpg", price: "$6.99" },
-    { name: "Tiramisu", image: "https://i.ibb.co/k2pN9yT/tiramisu.jpg", price: "$8.50" },
+    { name: "Chicken Alfredo Pizza", image: "https://i.ibb.co/myn3mWj/Chicken-Alfredo-Pizza-5.jpg", price: "$12.99" },
+    { name: "BBQ Chicken Pizza", image: "https://i.ibb.co/vQL5HH0/58411-8a92c002662b483984bb8a690ea51763.webp", price: "$14.50" },
+    { name: "Mushroom Swiss Burger", image: "https://i.ibb.co/m8wkVsd/Easy-Swiss-Mushroom-Burgers-7-SQ.webp", price: "$9.99" },
+    { name: "Veggie Burger", image: "https://i.ibb.co/0cphSqj/burger-recipe-1.webp", price: "$8.49" },
+    { name: "Caesar Salad", image: "https://i.ibb.co/3rXqnSc/229063-Classic-Restaurant-Caesar-Salad-ddmfs-4x3-231-89bafa5e54dd4a8c933cf2a5f9f12a6f.jpg", price: "$7.99" },
+    { name: "Chicken Caesar Salad", image: "https://i.ibb.co/xs2s05Y/FT-Chicken-Caesar-Salad-Spend-With-Pennies-4.jpg", price: "$10.99" },
+    { name: "Shrimp Scampi", image: "https://i.ibb.co/44864R6/229960-shrimp-scampi-with-pasta-DDMFS-4x3-e065ddef4e6d44479d37b4523808cc23.jpg", price: "$16.99" },
+    { name: "Pulled Pork Sandwich", image: "https://i.ibb.co/kBQWwvC/pulled-pork-sandwiches-on-butcher-paper-horizontal.jpg", price: "$11.99" },
+    { name: "Fish Tacos", image: "https://i.ibb.co/p1Kk6Dz/Fish-Tacos-0938.jpg", price: "$9.99" },
+    { name: "Steak Fajitas", image: "https://i.ibb.co/TvGx2QM/Steak-Fajitas-1-2.webp", price: "$15.99" },
+    { name: "Buf Wings", image: "https://i.ibb.co/C7MF4TZ/Baked-Buffalo-Wings-sq.jpg", price: "$9.99" },
+    { name: "Cheese Fries", image: "https://i.ibb.co/ZH4KwMg/featured-cheese-fries-recipe.jpg", price: "$5.99" },
+    { name: "Chocolate Brownie Sundae", image: "https://i.ibb.co/WDFtx92/Brownie-Sundae-1-2-735x1103.jpg", price: "$6.99" },
+    { name: "Sushi Platter", image: "https://i.ibb.co/pw3PhHf/IMG20230816150632.webp", price: "$24.99" },
+    { name: "Lobster Roll", image: "https://i.ibb.co/Q70fKhP/DK6A2864.jpg", price: "$18.50" },
+    { name: "Philly Cheesesteak", image: "https://i.ibb.co/4FR99Q8/philly-cheesesteak-3c4be15.jpg", price: "$11.99" },
+    { name: "Chicken Tikka Masala", image: "https://i.ibb.co/qdkf4cP/Chicken-Tikka-Masala-0-SQ.webp", price: "$13.99" },
+    { name: "Pad Thai", image: "https://i.ibb.co/f2wDm2b/42968-pad-thai-DDMFS-4x3-f46b490ef89b4694b8bf4c5ac54a486b.jpg", price: "$10.99" },
+    { name: "Burrito", image: "https://i.ibb.co/r7xKxw8/Beef-Burrito-Recipe-1200x900.webp", price: "$9.99" },
+    { name: "Vegetable Tempura", image: "https://i.ibb.co/7XL8xJm/friedveggies-7.jpg", price: "$8.99" },
+    { name: "Hawaiian Poke Bowl", image: "https://i.ibb.co/HBxgTpH/IMG-5743-scaled.jpg", price: "$14.99" },
+    { name: "Fettuccine Alfredo", image: "https://i.ibb.co/ZmkZcDV/Alfredo-Fettuccine-680px-plated.webp", price: "$12.99" },
+    { name: "Margarita Cocktail", image: "https://i.ibb.co/BTQyPq3/222416-maragrita-cocktail-ddmfs-3-X4-0319-1-35ebaafc51d7410eae4a7991b578dd4c.jpg", price: "$8.99" },
+    { name: "Chocolate Lava Cake", image: "https://i.ibb.co/MSynTX2/Strawberry-cheesecake-recipe-6-of-8.jpg", price: "$7.99" },
+    { name: "Strawberry Cheesecake", image: "", price: "$6.99" },
+    { name: "Tiramisu", image: "https://i.ibb.co/NmktgSv/21412-tiramisu-ii-2x1-123-ec8870161e2a4547ba282da742b0d9ed.jpg", price: "$8.50" },
 ];
 
 const searchInput = document.getElementById('searchInput');
@@ -52,22 +52,27 @@ function filterFoodItems() {
     displayResults(filteredItems);
 }
 
-
 function displayResults(results) {
     searchResults.innerHTML = '';
     results.forEach(item => {
         const foodItemElement = document.createElement('div');
         foodItemElement.classList.add('food-item');
         foodItemElement.innerHTML = `
-                    <img src="${item.image}" alt="${item.name}">
-                    <div class="food-item-details">
-                        <h2>${item.name}</h2>
-                        <p>${item.price || "Price not available"}</p>
-                        <button class="details-button">Details</button>
-                    </div>`;
+            <img src="${item.image}" alt="${item.name}">
+            <div class="food-item-details">
+                <h2>${item.name}</h2>
+                <p>${item.price || "Price not available"}</p>
+            </div>`;
+        
+            foodItemElement.addEventListener('click', () => {
+                window.location.href = `data.html`
+            });
         searchResults.appendChild(foodItemElement);
     });
 }
 
+
 searchInput.addEventListener('input', filterFoodItems);
+
+
 
