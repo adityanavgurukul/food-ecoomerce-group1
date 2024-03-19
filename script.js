@@ -37,7 +37,7 @@ const foodItems = [
     { name: "Fettuccine Alfredo", image: "https://i.ibb.co/ZmkZcDV/Alfredo-Fettuccine-680px-plated.webp", price: "$12.99" },
     { name: "Margarita Cocktail", image: "https://i.ibb.co/BTQyPq3/222416-maragrita-cocktail-ddmfs-3-X4-0319-1-35ebaafc51d7410eae4a7991b578dd4c.jpg", price: "$8.99" },
     { name: "Chocolate Lava Cake", image: "https://i.ibb.co/MSynTX2/Strawberry-cheesecake-recipe-6-of-8.jpg", price: "$7.99" },
-    { name: "Strawberry Cheesecake", image: "", price: "$6.99" },
+    { name: "Strawberry Cheesecake", image: "https://i.ibb.co/Vjps8v5/strawberry-margarita-cheesecake3.webp", price: "$6.99" },
     { name: "Tiramisu", image: "https://i.ibb.co/NmktgSv/21412-tiramisu-ii-2x1-123-ec8870161e2a4547ba282da742b0d9ed.jpg", price: "$8.50" },
 ];
 
