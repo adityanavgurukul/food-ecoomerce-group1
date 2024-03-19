@@ -26,7 +26,7 @@ function button_signup() {
   localStorage.setItem("gmail", gmail);
   localStorage.setItem("password", password); 
   alert("Sign up completed");
-  window.location.href = "index.html";
+  window.location.href = "loginsignup.html";
 }
 
 function login() {
@@ -42,7 +42,7 @@ function login() {
 
   if (gmail === oldemail && password === oldpassword) {
     alert("Login successful");
-    window.location.href = "index.html";
+    window.location.href = "loginsign.html";
   } else {
     alert("Invalid email or password");
   }
