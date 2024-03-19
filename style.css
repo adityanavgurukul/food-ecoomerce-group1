@@ -194,8 +194,8 @@ body{
 }
 .box1 {
     display: grid;
-    grid-template-columns: repeat(5, minmax(245px, 1fr));
-    grid-template-rows: repeat(6, 450px);
+    grid-template-columns: repeat(4, minmax(245px, 1fr));
+    grid-template-rows: repeat(8, 450px);
     gap: 10px;
     margin-top: 0px;
     margin-left: 25px;
