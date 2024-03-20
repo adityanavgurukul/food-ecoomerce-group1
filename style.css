@@ -1,0 +1,27 @@
+
+
+
+
+/*Navbar styling*/
+nav { 
+    background-color: rgb(66, 47, 83);
+    height: 75px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 0 20px; 
+}
+
+/* Style for the navbar links */
+nav a { 
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    margin-left: 20px;
+}
+
+/* Logo img Styling*/
+.logo img {
+    height: 30px;
+}
