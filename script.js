@@ -124,5 +124,3 @@ function displayResults(results) {
 
 searchInput.addEventListener('input', filterFoodItems);
 
-
-
