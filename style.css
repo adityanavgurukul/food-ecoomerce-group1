@@ -1,207 +1,112 @@
 #searchInput{
-    height: 6vh;
-    width: 49vw;
-   border-radius: 10px;
-    margin-left: 25vw;
-   padding-left: 15px;
-   margin-top: 10vh;
-    
+  height: 6vh;
+  width: 49vw;
+ border-radius: 10px;
+  margin-left: 25vw;
+ padding-left: 15px;
+ margin-top: 10vh;
+  
 }
 
 .food-item {
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    width: 50vw;
-    background-color: white;
-    border-radius: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  width: 50vw;
+  background-color: white;
+  border-radius: 10px;
 }
 .food-item img {
-    height: 100px;
-    width: 100px;
-    margin-right: 20px;
+  height: 100px;
+  width: 100px;
+  margin-right: 20px;
 }
 .food-item-details h2 {
-    margin: 0;
+  margin: 0;
 }
 
 #searchResults {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 50px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px; 
 }
-
-
-
-
-body{
-    line-height: 1.5;
-    font-family: 'Poppins', sans-serif;
-  }
-
-  *{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-  }
-  .container{
-    max-width: 1170px;
-    margin:auto;
-  }
-  .row{
-    display: flex;
-    flex-wrap: wrap;
-  }
-  ul{
-    list-style: none;
-  }
-  .footer{
-    background-color: #24262b;
-      padding: 70px 0;
-  }
-  .footer-col{
-     width: 25%;
-     padding: 0 15px;
-  }
-  .footer-col h4{
-    font-size: 18px;
-    color: #ffffff;
-    text-transform: capitalize;
-    margin-bottom: 35px;
-    font-weight: 500;
-    position: relative;
-  }
-  .footer-col h4::before{
-    content: '';
-    position: absolute;
-    left:0;
-    bottom: -10px;
-    background-color: #e91e63;
-    height: 2px;
-    box-sizing: border-box;
-    width: 50px;
-  }
-  .footer-col ul li:not(:last-child){
-    margin-bottom: 10px;
-  }
-  .footer-col ul li a{
-    font-size: 16px;
-    text-transform: capitalize;
-    color: #ffffff;
-    text-decoration: none;
-    font-weight: 300;
-    color: #bbbbbb;
-    display: block;
-    transition: all 0.3s ease;
-  }
-  .footer-col ul li a:hover{
-    color: #ffffff;
-    padding-left: 8px;
-  }
-  .footer-col .social-links a{
-    display: inline-block;
-    height: 40px;
-    width: 40px;
-    background-color: rgba(255,255,255,0.2);
-    margin:0 10px 10px 0;
-    text-align: center;
-    line-height: 40px;
-    border-radius: 50%;
-    color: #ffffff;
-    transition: all 0.5s ease;
-  }
-  .footer-col .social-links a:hover{
-    color: #24262b;
-    background-color: #ffffff;
-  }
-  
-
-  @media(max-width: 767px){
-    .footer-col{
-      width: 50%;
-      margin-bottom: 30px;
-  }
-  }
-  @media(max-width: 574px){
-    .footer-col{
-      width: 100%;
-  }
-  }
 
 
 /*////////////////////////////*/
-
-.card{
-    background-color: white;
-    width: 340px;
-    height: 380px;
-    border-radius: 10px;
-    
-}
-.card .image > img{
-    max-width: 100%;
-    border-radius: 10px;
+.card {
+background-color: white;
+width: 340px;
+height: 480px;
+border-radius: 10px;
 }
 
-.card .info{
-    padding: 0px 30px 0px 30px;
+.card .image > img {
+max-width: 100%;
+border-radius: 10px;
 }
 
-.card .info h3{
-    font-size: 30px;
-    font-weight: 700;
-    margin-bottom: 5px;
+.card .info {
+padding: 0px 30px;
 }
 
-.card .info p{
-    
-    font-size: 18px;
-    font-weight: 600;
+.card .info h3 {
+font-size: 30px;
+font-weight: 700;
+margin-bottom: 5px;
 }
 
-.card .price{
-    text-align: right;
-    color: red;
-}
-.card .btn{
-    display: flex;
-    justify-content: space-around;
-}
-.card .btn button{
-    padding: 12px 32px;
-    border:  none;
-    border-radius: 10px;
-    background: #ffa600;
-    color: white;
-    font-size: 15px;
-    font-weight: 700;
-    cursor: pointer;
+.card .info p {
+font-size: 18px;
+font-weight: 600;
 }
 
-.card .btn .btn2{
-    background: #1d2630;
-    padding: 12px 15px;
+.card .price {
+text-align: right;
+color: red;
 }
-.id{
-    display: flex;
-    justify-content: space-between;
+
+.card .btn {
+display: flex;
+justify-content: space-around;
 }
-.id .red{
-    color: red;
+
+.card .btn button {
+padding: 12px 32px;
+border: none;
+border-radius: 10px;
+background: #ffa600;
+color: white;
+font-size: 15px;
+font-weight: 700;
+cursor: pointer;
 }
+
+.card .btn .btn2 {
+background: #1d2630;
+padding: 12px 15px;
+}
+
+.id {
+display: flex;
+justify-content: space-between;
+}
+
+.id .red {
+color: red;
+}
+
 .box1 {
-    display: grid;
-    grid-template-columns: repeat(4, minmax(245px, 1fr));
-    grid-template-rows: repeat(8, 450px);
-    gap: 10px;
-    margin-top: 0px;
-    margin-left: 25px;
-  }
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(335px, 1fr));
+grid-template-rows: repeat(8, 520px);
+gap: 10px;
+margin-top: 7vh;
+margin-left: 40px;
+}
 
-  
 @media (max-width: 800px) {
 .box1 {
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -211,6 +116,12 @@ body{
 @media (max-width: 600px) {
 .box1 {
   grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
-  grid-template-rows: repeat(3, 400px);
+  grid-template-rows: repeat(auto-fill, 490px);
 }
+}
+
+img
+{
+height: 290px;
+width: 348px;
 }
