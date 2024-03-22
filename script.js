@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 const main = document.getElementById("main");
 const toggleForm = () => {
   const container = document.querySelector('.container');
@@ -48,7 +48,6 @@ function login() {
     alert("Invalid email or password");
   }
 }
-=======
 const foodItems = [
     { name: "Pizza", image: "https://i.ibb.co/LQLdg0d/50a7b6a13177e653720b2a1d53e02958.jpg", price: "$245" },
     { name: "Patty Burger", image: "https://i.ibb.co/Xs8tVBs/bzfywxdvmkafjsakvhye.jpg", price: "Price not available" },
@@ -127,4 +126,3 @@ searchInput.addEventListener('input', filterFoodItems);
 
 
 
->>>>>>> f20f29de86914974f89b09a70352ae491ff6ab23
