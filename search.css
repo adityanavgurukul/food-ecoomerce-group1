@@ -1,8 +1,8 @@
 #searchInput{
     height: 6vh;
-    width: 49vw;
+    width: 50vw;
    border-radius: 10px;
-    margin-left: 25vw;
+    margin-left: 23.7vw;
    padding-left: 15px;
    margin-top: 10vh;
     
@@ -17,6 +17,16 @@
     width: 50vw;
     background-color: white;
     border-radius: 10px;
+}
+
+.food-item{
+  max-width: 100%;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.food-item:hover{
+  transform: scale(1.1);
 }
 .food-item img {
     height: 100px;
@@ -43,6 +53,15 @@
   border-radius: 10px;
 }
 
+.card{
+  max-width: 100%;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover{
+  transform: scale(1.1);
+}
 .card .image > img {
   max-width: 100%;
   border-radius: 10px;
@@ -125,3 +144,6 @@ img
   height: 290px;
   width: 348px;
 }
+
+
+
