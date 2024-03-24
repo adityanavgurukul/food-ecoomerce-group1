@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 20px;
     justify-content: center;
+    background-color: #D6C2E7;
 }
 
 h1, h2 {
@@ -20,7 +21,6 @@ li {
 
 i {
     cursor: pointer;
-
 }
 
 i:hover {
@@ -35,23 +35,84 @@ i:hover {
     padding: 5px 10px;
     cursor: pointer;
     border-radius: 20px;
-    
+    height: 30px;
+    margin-top: 16vh;
 }
 
 .remove-button:hover {
     color: white;
-    
 }
-
-
 
 .food-item {
     border: 1px solid #ccc;
     padding: 10px;
     margin-bottom: 10px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
 }
 
 .food-item img {
     display: block;
     margin: 0 auto;
+    margin-left: 0vw;
+    max-width: 100%; 
 }
+
+.detials {
+    width: 20vw; 
+    margin-right: 60vw; 
+}
+
+
+@media only screen and (max-width: 768px) {
+    .detials {
+        width: 40vw; 
+        margin-right: 10vw;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .food-item {
+        flex-direction: column; 
+    }
+
+    .detials {
+        width: auto; 
+        margin-right: 0; 
+    }
+}
+
+
+li.wishlist-item {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+}
+
+.data {
+    height: 90px;
+    padding: 50px 10px 0px 20px;
+}
+
+
+@media screen and (max-width: 600px) {
+  
+    li.wishlist-item {
+        flex-direction: column;
+    }
+
+    .data {
+        padding: 10px; 
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+   
+    .data {
+        padding: 20px; 
+    }
+}
+
+

@@ -165,9 +165,9 @@ function addToWishlist(index) {
         const li = document.createElement("li");
         li.className = "wishlist-item";
 
-        li.innerHTML = `<img src="${foodItem.image}" alt="${foodItem.name}" style="width: 400px; height: 400p">
-            <span>${foodItem.name} - ${foodItem.description} - ${foodItem.price}</span>
-            <button class="remove-button" onclick="removeFromWishlist(this)">Remove <i class="fa-regular fa-heart"></i></button>`;
+        li.innerHTML = `<img src="${foodItem.image}" alt="${foodItem.name}" style="width: 300px; height: 200px">
+            <span class="data">${foodItem.name} <br> <br>${foodItem.description} <br> <br>${foodItem.price} </span> 
+            <button class="remove-button" onclick="removeFromWishlist(this)">Remove <i class="fa-regular fa-heart"></i></button> `;
 
         document.getElementById("wishlist-items").appendChild(li);
 
@@ -191,11 +191,13 @@ function IndianFoodItems() {
     foodItems.forEach((foodItem, index) => {
         const foodDiv = document.createElement("div");
         foodDiv.className = "food-item";
-        foodDiv.innerHTML = `<img src="${foodItem.image}" alt="${foodItem.name}" style="width: 100px; height: 100px;">
-            <h3>${foodItem.name}</h3>
-            <p>${foodItem.description}</p>
-            <p>${foodItem.price}</p>
-            <button onclick="addToWishlist(${index})">Add to Wishlist</button>`;
+        foodDiv.innerHTML = `<img src="${foodItem.image}" alt="${foodItem.name}" style="width: 300px; height: 200px;">
+        <div class="detials">
+        <h3>${foodItem.name}</h3>
+        <p>${foodItem.description}</p>
+        <p>${foodItem.price}</p>
+        <button onclick="addToWishlist(${index})">Add to Wishlist</button>;
+    </div>`
         foodItemsContainer.appendChild(foodDiv);
     });
 }

@@ -19,6 +19,7 @@
     border-radius: 10px;
 }
 
+
 .food-item{
   max-width: 100%;
   border-radius: 8px;
@@ -62,6 +63,7 @@
 .card:hover{
   transform: scale(1.1);
 }
+
 .card .image > img {
   max-width: 100%;
   border-radius: 10px;
