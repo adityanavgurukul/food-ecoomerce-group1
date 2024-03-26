@@ -49,13 +49,29 @@ const categoryData = {
         {
           name: "Pepperoni Pizza",
           category: "Pizza",
-          image: "https://st2.depositphotos.com/1029251/49362/i/450/depositphotos_493627754-stock-photo-pepperoni-pizza-pepperoni-pizza-isolated.jpg"
+          image: "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2021/06/1200/675/iStock-1222455274.jpg?ve=1&tl=1"
         },
         {
           name: "BBQ Chicken Pizza",
           category: "Pizza",
-          image: "https://www.thedietchefs.com/wp-content/uploads/2023/12/Dominos-BBQ-Chicken-Pizza.jpg"
-        }
+          image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz0eIszxXu2IjJ6b0cpFx5mnvmzIgle0g4og&usqp=CAU"
+        },
+        {
+          name: "capcicum",
+          category:"Pizza",
+          image:"https://upload.wikimedia.org/wikipedia/commons/9/91/Pizza-3007395.jpg"
+        },
+        {
+          name: "Chees Pizza",
+          category:"Pizza",
+          image:"https://img.freepik.com/free-photo/freshly-italian-pizza-with-mozzarella-cheese-slice-generative-ai_188544-12347.jpg"
+        },
+        {
+          name: "Normal Pizza",
+          category:"Pizza",
+          image:"https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D"
+        },
+
         
       ],
       NorthIndian: [
@@ -88,6 +104,21 @@ const categoryData = {
           name: "Masala Dosa ",
           category: "SouthIndian",
           image: "https://img.freepik.com/premium-photo/south-indian-breakfast-dosa-isolated-white-background_759447-1612.jpg"
+        },
+        {
+          name: "Uttapam",
+          category: "SouthIndian",
+          image: "https://st2.depositphotos.com/5653638/11442/i/450/depositphotos_114429936-stock-photo-south-indian-food-two-uttapam.jpg"
+        },
+        {
+          name: "Uttapam",
+          category: "SouthIndian",
+          image: "https://st2.depositphotos.com/5653638/11442/i/450/depositphotos_114429936-stock-photo-south-indian-food-two-uttapam.jpg"
+        },
+        {
+          name: "Uttapam",
+          category: "SouthIndian",
+          image: "https://st2.depositphotos.com/5653638/11442/i/450/depositphotos_114429936-stock-photo-south-indian-food-two-uttapam.jpg"
         },
         {
           name: "Uttapam",
