@@ -4,74 +4,706 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Food E-commerce Website</title>
+    <title>Food E-Commerce</title>
+      
+    <!-- Including Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <!-- including Swiper JS -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/> -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
 </head>
 
 <body>
+
+    <!-- Navbar -->
     <header>
-        <div class="slide">
-            <div class="left-side">
-                <h2>Order Food <br>Online in <br>Bangalore</h2>
+            <div class="logo">
+                <a href="#" class="logo"><i class="fa-solid fa-kitchen-set"></i>Homey.</a>
             </div>
-            <img
-                src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1002,h_600/v1678428358/portal/m/seo_web/dweb_header.png">
-        </div>
+            <nav class="navbar">
+                <a class="active" href="#home"><i class="fas fa-home"></i> Home</a>
+                <a href="category.html"> <i class="fas fa-utensils"></i> Menu</a>
+                <a href="#About"><i class="fas fa-info-circle"></i> About Us</a>
+                <a href="#Review"> Reviews</a> 
+                <!-- <a href="#Favourites"><i class="fas fa-heart"></i> </a> -->
+                <!-- <a href="#Cart"><i class="fas fa-shopping-cart"></i> </a> -->
+                <a href="./loginsignup.html"><i class="fas fa-sign-in-alt"></i> Sign In</a>
+            </nav>
+            <div class="icons">
+                <i class="fas fa-bars" id="menu-bars"></i>
+                <a href="./search.html"><i class="fas fa-search" id="search"></i></a>
+                <a href="./wishlist.html" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-shopping-cart"></a>
+            </div>    
     </header>
-    <main>
-        <section class="categories" id="categories">
 
-        </section> 
+<!-- Home banner starts -->
 
-        <section>
-            <div class="all-data">
-                <div class="row ">
-                    <div class="col">
-                        <img
-                            src="https://img.freepik.com/free-photo/exploding-burger-with-vegetables-melted-cheese-black-background-generative-ai_157027-1734.jpg?size=626&ext=jpg&ga=GA1.1.735520172.1710633600&semt=ais">
-                    </div>
-                    <div class="col">
-                        <img
-                            src="https://img.freepik.com/free-photo/fresh-pasta-with-hearty-bolognese-parmesan-cheese-generated-by-ai_188544-9469.jpg">
-                    </div>
-                    <div class="col">
-                        <img src="https://5.imimg.com/data5/PK/JL/MY-29540739/cheese-burst-pizza-500x500.png">
-                    </div>
+<section class="home" id="home">
+    <!-- <div class="swiper-bundle"> -->
+        <div class="swiper-container home-slider">
 
-                    <div class="col">
-                        <img src="https://img.taste.com.au/hbNtzI2Q/taste/2021/08/clinkers-cake-173208-2.jpg">
-                    </div>
+        <div class="swiper-wrapper wrapper">
+            <div class="swiper-slide slide">
 
+                <div class="content">
+                    <span>Our Special Menu</span>
+                    <h3>Pizza</h3>
+                    <p> Craving heaven in a slice?😍Indulge in our delightful array of pizza varieties!
+                    </p>
+                    <a href="#" class="btn">Order Now</a>
                 </div>
-
-                <div class="row">
-                    <div class="col">
-                        <img
-                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Momo_nepal.jpg/640px-Momo_nepal.jpg">
-                    </div>
-                    <div class="col">
-                        <img
-                            src="https://www.recipehub.in/wp-content/uploads/2021/06/chicken-biryani-instant-pot-website.jpg">
-                    </div>
-                    <div class="col">
-                        <img
-                            src="https://images.aws.nestle.recipes/resized/f2179702e5e9a370c8d4929a3cac1018_rajma_galoti_kabab_944_531.jpg">
-                    </div>
-                    <div class="col">
-                        <img src="https://assets.zeezest.com/blogs/PROD_Veg-Food-Banner_1645021052320_thumb_1200.jpeg">
-                    </div>
-
+                <div class="pic">
+                    <img src="./Landing Page Assets/pizza.jpg" alt="">
                 </div>
             </div>
-            </div>
-        </section>
-    </main>
-    <footer>
 
-        <script src="index.js"></script>
- 
-    <script src="./script.js"></script>
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Our Special Menu</span>
+                    <h3>Biryani</h3>
+                    <p> "Savor the Flavor😋 Experience Biryani Bliss!</p>
+                    <a href="#" class="btn">Order Now</a>
+                </div>
+                <div class="pic">
+                    <img src="./Landing Page Assets/biryani.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Our Special Menu</span>
+                    <h3>Burger</h3>
+                    <p>Sink your teeth into perfection with our mouthwatering burgers🤤   </p>
+                    <a href="#" class="btn">Order Now</a>
+                </div>
+                <div class="pic">
+                    <img src="./Landing Page Assets/b1.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Our Special Menu</span>
+                    <h3>Noodles</h3>
+                    <p> Step into a world of exquisite flavors with our Chinese cuisine.                    </p>
+                    <a href="#" class="btn">Order Now</a>
+                </div>
+                <div class="pic">
+                    <img src="./Landing Page Assets/n3.jpg" alt="">
+                </div>
+            </div>
+
+            
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Our Special Menu</span>
+                    <h3>Momos</h3>
+                    <p> Dive into a world of culinary delight with our exquisite momos
+                    </p>
+                    <a href="#" class="btn">Order Now</a>
+                </div>
+                <div class="pic">
+                    <img src="./Landing Page Assets/MOMO (1).jpg" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Our Special Menu</span>
+                    <h3>Pasta</h3>
+                    <p> Step into a world of Italian indulgence with our tantalizing pasta dishes </p>
+                    <a href="#" class="btn">Order Now</a>
+                </div>
+                <div class="pic">
+                    <img src="./Landing Page Assets/pasta (1).jpg" alt="">
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Our Special Menu</span>
+                    <h3>Spicy Roll</h3>
+                    <p> "Experience the Crunchy Delight of Spring Rolls🤤      </p>
+                    <a href="#" class="btn">Order Now</a>
+                </div>
+                <div class="pic">
+                    <img src="./Landing Page Assets/roll (2).jpg" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Our Special Menu</span>
+                    <h3>Chhole Bhature</h3>
+                    <p> Satisfy your cravings with our delectable Chhole Bhature, a beloved Indian classic that's sure to tantalize your taste buds🤤 </p>
+                    <a href="#" class="btn">Order Now</a>
+                </div>
+                <div class="pic">
+                    <img src="./Landing Page Assets/chhole.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</section>
+
+<section class="dishes" id="dishes">
+    <h1 class="heading">Our Popular Dishes</h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="./Landing Page Assets/b3.jpg" alt="pasta">
+            <h3>Burger</h3>
+
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$5</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="./Landing Page Assets/n3.jpg" alt="pasta">
+            <h3>Chinese Noodles</h3>
+
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$18</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="./Landing Page Assets/MOMO.jpg" alt="pasta">
+            <h3>Spicy Pasta</h3>
+
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$5</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="./Landing Page Assets/bi1.jpg" alt="pasta">
+            <h3>Chicken Biryani</h3>
+
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$15</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="./Landing Page Assets/bi2.jpg" alt="pasta">
+            <h3>Pulao</h3>
+
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$15</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="./Landing Page Assets/bi3.jpg" alt="pasta">
+            <h3>Veg Biryani</h3>
+
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$15</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="./Landing Page Assets/c1.jpeg" alt="pasta">
+            <h3>Cake</h3>
+
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$7</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="./Landing Page Assets/c2.jpg" alt="pasta">
+            <h3>Pearl Cake</h3>
+
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$10</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="./Landing Page Assets/c5 (1).jpg" alt="cake">
+            <h3>Pastry</h3>
+
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$5</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="./Landing Page Assets/MOMO (1).jpg" alt="pasta">
+            <h3>Spicy MOMO</h3>
+
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$5</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="./Landing Page Assets/pasta.jpeg" alt="pasta">
+            <h3>Spicy Pasta</h3>
+
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$5</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="./Landing Page Assets/icecream (1).jpg" alt="pasta">
+            <h3>Veg Noodles</h3>
+
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$15</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="./Landing Page Assets/n2.jpg" alt="pasta">
+            <h3>Chinese Noodles</h3>
+
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$5</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="./Landing Page Assets/roll (1).jpg" alt="pasta">
+            <h3>Crispy Roll</h3>
+
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$15</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="./Landing Page Assets/pasta (1).jpg" alt="pasta">
+            <h3>Creamy Pasta</h3>
+
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$15</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="./Landing Page Assets/thali1.jpg" alt="pasta">
+            <h3>Indian Thali</h3>
+
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$15</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="./Landing Page Assets/s1 (1).jpg" alt="pasta">
+            <h3>Indian Thali</h3>
+
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$15</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="./Landing Page Assets/Thali2.jpg" alt="pasta">
+            <h3>Indian Thali</h3>
+
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$15</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="./Landing Page Assets/mast.jpg" alt="pasta">
+            <h3>Burger + French Fries</h3>
+
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$15</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="./Landing Page Assets/PIzza2.jpg" alt="pasta">
+            <h3>Spicy Pizza</h3>
+
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$15</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="./Landing Page Assets/ (2).jpg" alt="pasta">
+            <h3>Spicy Rolls</h3>
+
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$15</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+
+    </div>
+</section> 
+
+<section>
+    <div class="review" id="Review">
+        <h2>Customer <span>Reviews</span></h2>
+        <div class="review-box">
+            <div class="review-card">
+                <div class="review-profile-pic">
+                    <img src="./Landing Page Assets/Akhila.jpg" alt="Profile Picture2">
+                </div>
+                <div class="review-text">
+                    <h3 class="name">Akhila</h3>
+                    <div class="review-icon four-star">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p>Their brunch is awesome, I love the avocado toast and the california focaccia. Pizza is
+                        really good as well. </p>
+                </div>
+            </div>
+
+            <div class="review-card">
+                <div class="review-profile-pic">
+                    <img src="./Landing Page Assets/Anjali.jpg" alt="Profile Picture2">
+                </div>
+                <div class="review-text">
+                    <h3 class="name">Anjali Singh</h3>
+                    <div class="review-icon five-star">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p>This is always our breakfast stop before heading home from vacation. Always delicious. Always
+                        delicious. Always great service. Always worth the stop. </p>
+                </div>
+            </div>
+
+            <div class="review-card">
+                <div class="review-profile-pic">
+                    <img src="./Landing Page Assets/Pooja.jpg" alt="Profile Picture2">
+                </div>
+                <div class="review-text">
+                    <h3 class="name">Pooja Sawant</h3>
+                    <div class="review-icon five-star">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p>This is always our breakfast stop before heading home from vacation. Always delicious. Always
+                        delicious. Always great service. Always worth the stop. </p>
+                </div>
+            </div>
+
+            <div class="review-card">
+                <div class="review-profile-pic">
+                    <img src="./Landing Page Assets/rahul.jpg" alt="Profile Picture2">
+                </div>
+                <div class="review-text">
+                    <h3 class="name">Rahul Gangwar</h3>
+                    <div class="review-icon five-star">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p>This is always our breakfast stop before heading home from vacation. Always delicious. Always
+                        delicious. Always great service. Always worth the stop. </p>
+                </div>
+            </div>
+
+            <div class="review-card">
+                <div class="review-profile-pic">
+                    <img src="./Landing Page Assets/Ankita.jpg" alt="Profile Picture2">
+                </div>
+                <div class="review-text">
+                    <h3 class="name">Ankita Dubey</h3>
+                    <div class="review-icon four-star">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+
+                    <p>Very good service, good menu... not overly extensive . Food was very good quality all around.
+                        They know how to prepare home fries and their omelets are top-notch. Prices were reasonable.
+                    </p>
+                </div>
+            </div>
+            <div class="review-card">
+                <div class="review-profile-pic">
+                    <img src="./Landing Page Assets/Rukhsana.jpg" alt="Profile Picture2">
+                </div>
+
+                <div class="review-text">
+                    <h3 class="name">Rukhsana</h3>
+                    <div class="review-icon five-star">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p>I absolutely love this product! It works so well. I love that it. I'm super impressed with
+                        quality for the price! And the delivery was real quick! Thank you so much</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+     <div class="row">
+       <div class="footer-col">
+           <h4>Menu Links</h4>
+           <ul class="list">
+               <li><a href="#">Home</a></li>
+               <li><a href="#">About</a></li>
+               <li><a href="#">Contact</a></li>
+           </ul>
+       </div>
+       <div class="footer-col">
+         <h4>get help</h4>
+         <ul class="list">
+           <li><a href="#">FAQ</a></li>
+           <li><a href="#">Order Status</a></li>
+           <li><a href="#">Payment Options</a></li>
+         </ul>
+       </div>
+       <div class="footer-col">
+         <h4>Learn More</h4>
+         <ul class="list">
+           <li><a href="#">Privacy</a></li>
+           <li><a href="#">Security</a></li>
+           <li><a href="#">Terms & Condition</a></li>
+         </ul>
+       </div>
+       <div class="footer-col">
+         <h4>follow us</h4>
+         <div class="social-links">
+           <a href="#"><i class="fab fa-facebook-f"></i></a>
+           <a href="#"><i class="fab fa-twitter"></i></a>
+           <a href="#"><i class="fab fa-instagram"></i></a>
+           <a href="#"><i class="fab fa-linkedin-in"></i></a>
+         </div>
+       </div>
+     </div>
+    </div>
+ </footer>
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    
+<script>
+    let menu = document.querySelector('#menu-bars');
+    let navbar=document.querySelector('.navbar');
+
+    menu.onclick = () => {
+        menu.classList.toggle('fa-times');
+        navbar.classList.toggle('active');
+    }
+
+    var swiper = new Swiper(".home-slider", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      loop:true,
+    });
+
+
+
+</script>    
 </body>
-
 </html>
