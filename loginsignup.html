@@ -9,8 +9,8 @@
 <body>
     <body>
        <main>
-        <button id="registerButton">Singup/Login</button>
-          <div class="container" id="main" style='display: none;'>
+        <!-- <button id="registerButton">Singup/Login</button> -->
+          <div class="container" id="main">
             <div class="card sign_in">
               <div class="img"><img src="https://images.squarespace-cdn.com/content/v1/57879a6cbebafb879f256735/2546d6b2-f5b2-44ba-a6de-81c7bb23de7a/HR050322-7_original.jpg" alt=""></div>
               <div class="form">
@@ -20,6 +20,10 @@
                   <p class="suggest">Login In with your Account</p>
                   <input type="email" name="email" id="email-2" placeholder="Enter email" required />
                   <input type="password" name="password" id="password-2" placeholder="Password"  required />
+                  <div class="checkbox">
+                  <input type="checkbox" id="checkbox" onclick="box()" >
+                  <label for="checkbox">ShowPassword</label>
+                  </div>
                   <button onclick="login()">Login</button>
                   <p class="signup">
                     Don't have an account ?
@@ -37,7 +41,11 @@
                   <input type="text" name="" placeholder="Username"  required />
                   <input type="email" name="email" id="email"  placeholder="Email Address"  required />
                   <input type="password" name="" id="password" placeholder="Create Password"  />
-                  <button onclick="button_signup()">Login</button>
+                 <div class="checkbox">
+                  <input type="checkbox" id="checkbox" onclick="box()">
+                  <label for="checkbox">ShowPassword</label>
+                 </div>
+                  <button onclick="button_signup()">Signup</button>
 
                   <p class="signup">
                     Already have an account ?
