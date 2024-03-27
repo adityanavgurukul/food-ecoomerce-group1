@@ -64,8 +64,6 @@
         text-align: center;
     }
 }
-
-
 /* second category part  */
 
 
@@ -242,5 +240,3 @@
   .card:hover{
     transform: scale(1.1);
   }
-  
-
